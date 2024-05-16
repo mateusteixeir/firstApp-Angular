@@ -1,0 +1,47 @@
+
+.listing {
+    background: rgb(225, 248, 247);
+    border-radius: 30px;
+    padding-bottom: 30px;
+}
+
+.listing-heading {
+    color: blueviolet;
+    padding: 10px 20px 0 20px;
+}
+
+.listing-photo{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px 30px 0 0;
+}
+
+.listing-location{
+    padding: 10px 20px 20px 20px;
+}
+
+.listing-location::before{
+    content: url("/src/assets/logo.svg") / "";
+}
+
+section.listing a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+section.listing a::after {
+    content: "\203A";
+    margin-left: 5px;
+}
+
+.elements{
+    display: flex;
+    align-items: center;
+}
+
+.elements img{
+    padding: 20px 0 5px 20px ;
+    width: 24px;
+}
